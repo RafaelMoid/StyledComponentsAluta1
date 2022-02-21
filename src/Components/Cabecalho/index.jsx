@@ -33,12 +33,12 @@ const Cabecalho = () => {
     <StyledHeader>
       <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
-        <a className="btn-secundario" href="https://google.com">
+        <BtnCabecalho primary href="https://google.com">
           Ajuda
-        </a>
-        <a className="btn-primario" href="https://google.com">
+        </BtnCabecalho>
+        <BtnCabecalho href="https://google.com">
           Sair
-        </a>
+        </BtnCabecalho>
       </div>
     </StyledHeader>
   );
