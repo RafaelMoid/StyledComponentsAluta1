@@ -18,12 +18,12 @@ const Conteudo = styled.section`
 
 export default () => {
   return (
-    <div className="container">
+    <Container>
       <Titulo>Olá Fulano!</Titulo>
-      <section className="conteudo">
+      <Conteudo>
         <Conta />
-      </section>
-    </div>
+      </Conteudo>
+    </Container>
   );
 };
 
